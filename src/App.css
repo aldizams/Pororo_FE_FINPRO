@@ -85,8 +85,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 	color: white;
-}
-.CareTitle {
+	margin-bottom: 20px;
 }
