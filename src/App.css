@@ -41,7 +41,7 @@
 	color: white;
 	border-radius: 20px;
 	text-align: center;
-	box-shadow: 1px 1px 5px 0 #938f98;
+	box-shadow: 1px 2px 5px 0 #938f98;
 	backdrop-filter: blur(5.5px);
 	transition: 0.3s;
 	height: 40px;
@@ -50,4 +50,17 @@
 .ButtonCard:hover {
 	box-shadow: 2px 3px #938f98;
 	transition: 0.3s;
+}
+
+.profPic {
+	width: 5em;
+	height: 5em;
+	border-radius: 50%;
+}
+
+.profileFooter {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
 }

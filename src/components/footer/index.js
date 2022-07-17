@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import MasAzmiProf from '../../img/WhatsApp Image 2022-06-27 at 11.27.06 AM.jpeg';
+import DizaProf from '../../img/20200916141629_IMG_3263.JPG';
 
 const Footer = () => {
 	return (
 		<div
 			style={{
 				backgroundColor: '#ECEFF6',
-				height: '16rem',
+				height: '20rem',
 				borderRadius: '20px 20px 0px 0px',
 			}}
 		>
@@ -14,13 +16,37 @@ const Footer = () => {
 				fluid="sm"
 				style={{
 					backgroundColor: '#938F98',
-					height: '9rem',
+					height: '12rem',
 					borderRadius: '0px 0px 20px 20px',
+					display: 'flex',
+					justifyContent: 'space-around',
+					alignItems: 'center',
+					flexDirection: 'row',
 				}}
 			>
-				Footer atas
+				<div style={{ color: 'white' }} className="profileFooter">
+					<img src={MasAzmiProf} className="profPic" />
+					<h5>Shofi Azmi</h5>
+				</div>
+				<div style={{ color: 'white' }} className="profileFooter">
+					<img src={DizaProf} className="profPic" />
+					<h5>Aldiza M. S</h5>
+				</div>
+				<div style={{ color: 'white' }} className="profileFooter">
+					<img src={MasAzmiProf} className="profPic" />
+					<h5>Shofi Azmi</h5>
+				</div>
 			</Container>
-			<p>Footer Bawah</p>
+			<div
+				style={{
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					marginTop: '50px',
+				}}
+			>
+				<h3> &#169;PORORO</h3>
+			</div>
 		</div>
 	);
 };
