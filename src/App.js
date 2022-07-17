@@ -1,11 +1,11 @@
 import './App.css';
-import { CatCard, Header } from './components';
-
+import { CatCard, Header, Footer } from './components';
 function App() {
 	return (
 		<>
-			<Header />
+			<Header style={{ zIndex: '9999' }} />
 			<CatCard />
+			<Footer />
 		</>
 	);
 }
