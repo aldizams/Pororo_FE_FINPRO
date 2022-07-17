@@ -37,19 +37,21 @@
 	}
 }
 .ButtonCard {
-	background-color: #282c34;
-	color: white;
+	background-color: #938f98;
+	color: #eceff6;
 	border-radius: 20px;
 	text-align: center;
-	box-shadow: 1px 2px 5px 0 #938f98;
 	backdrop-filter: blur(5.5px);
 	transition: 0.3s;
-	height: 40px;
-	text-align: center;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .ButtonCard:hover {
-	box-shadow: 2px 3px #938f98;
-	transition: 0.3s;
+	transition: 0.2s;
+	background-color: #eceff6;
+	color: #171718;
 }
 
 .profPic {
@@ -63,4 +65,12 @@
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
+}
+
+.BreedPage {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px 0;
 }

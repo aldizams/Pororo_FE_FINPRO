@@ -6,9 +6,11 @@ const CatCard = () => {
 		<Card
 			className="bg-dark text-white"
 			style={{
-				width: '20rem',
+				width: '15rem',
 				borderRadius: '20px',
 				boxShadow: '6px 6px 28px -5px rgba(117,117,117,0.77)',
+				border: '#282c34 solid 3px',
+				margin: '5px',
 			}}
 		>
 			<Card.Img

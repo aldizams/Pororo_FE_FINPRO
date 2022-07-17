@@ -6,7 +6,18 @@ const BreedHairPage = () => {
 	return (
 		<div style={{ margin: '20px 0' }}>
 			<BreedNav />
-			<Container fluid="sm">
+			<Container fluid="sm" className="BreedPage">
+				<CatCard />
+				<CatCard />
+				<CatCard />
+				<CatCard />
+				<CatCard />
+				<CatCard />
+				<CatCard />
+				<CatCard />
+				<CatCard />
+				<CatCard />
+				<CatCard />
 				<CatCard />
 			</Container>
 		</div>

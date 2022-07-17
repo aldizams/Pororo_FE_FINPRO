@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import MasAzmiProf from '../../img/WhatsApp Image 2022-06-27 at 11.27.06 AM.jpeg';
 import DizaProf from '../../img/20200916141629_IMG_3263.JPG';
+import MasRenoProf from '../../img/WhatsApp Image 2022-07-17 at 6.44.19 PM.jpeg';
 
 const Footer = () => {
 	return (
@@ -15,7 +16,7 @@ const Footer = () => {
 			<Container
 				fluid="sm"
 				style={{
-					backgroundColor: '#938F98',
+					backgroundColor: '#DBD8D3',
 					height: '12rem',
 					borderRadius: '0px 0px 20px 20px',
 					display: 'flex',
@@ -33,7 +34,7 @@ const Footer = () => {
 					<h5>Aldiza M. S</h5>
 				</div>
 				<div style={{ color: 'white' }} className="profileFooter">
-					<img src="" className="profPic" />
+					<img src={MasRenoProf} className="profPic" />
 					<h5>Reno Dwijaya</h5>
 				</div>
 			</Container>
