@@ -26,7 +26,7 @@ const Footer = () => {
 			>
 				<div style={{ color: 'white' }} className="profileFooter">
 					<img src={MasAzmiProf} className="profPic" />
-					<h5>M. Shofi Azmi</h5>
+					<h5>M.Shofi Azmi</h5>
 				</div>
 				<div style={{ color: 'white' }} className="profileFooter">
 					<img src={DizaProf} className="profPic" />
