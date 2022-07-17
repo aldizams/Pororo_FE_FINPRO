@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { FaCat } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
@@ -18,7 +19,7 @@ const Header = () => {
 			}}
 		>
 			<Container>
-				<Navbar.Brand href="#home">
+				<Navbar.Brand as={Link} to="/">
 					<b style={{ fontFamily: 'Lobster, cursive', fontSize: '25px' }}>
 						{' '}
 						<FaCat style={{ marginBottom: '9px' }} /> MeowStore
@@ -30,8 +31,12 @@ const Header = () => {
 						className="me-auto"
 						style={{ fontSize: '15px', color: '#232528' }}
 					>
-						<Nav.Link href="#home">Breed</Nav.Link>
-						<Nav.Link href="#link">Cat Care</Nav.Link>
+						<Nav.Link as={Link} to="/">
+							Breed
+						</Nav.Link>
+						<Nav.Link as={Link} to="/care">
+							Cat Care
+						</Nav.Link>
 						<Nav.Link href="#link">Adopt</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
