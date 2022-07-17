@@ -8,7 +8,7 @@ const CatCard = () => {
 			style={{
 				width: '20rem',
 				borderRadius: '20px',
-				boxShadow: '6px 6px 28px -5px #938F98',
+				boxShadow: '6px 6px 28px -5px rgba(117,117,117,0.77)',
 			}}
 		>
 			<Card.Img
