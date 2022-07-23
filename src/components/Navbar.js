@@ -1,9 +1,6 @@
 import React from 'react';
-import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
-    const navigate = useNavigate();
 
     return (
         <nav className="navbar is-light" role="navigation" aria-label="main navigation">

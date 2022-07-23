@@ -21,6 +21,7 @@ const Adopt = () => {
                     <li class="is-active"><a href="/adopt" aria-current="page">Adopt</a></li>
                 </ul>
             </nav>
+            <p className='content has-text-centered mt-5'><a href="https://api.whatsapp.com/send?phone=6285952447122&text=Hi kak MeowStore, aku mau tanya/adopsi nih..." target="_blank">Pertanyaan/Pembelian</a></p>
             <div className="columns mt-5 is-multiline">
                 {adopt.map((adopt) => (
                     <div className="column is-one-quarter" key={adopt.id}>

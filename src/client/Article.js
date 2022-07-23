@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 
 const Article = () => {
@@ -33,7 +34,7 @@ const Article = () => {
                             <div className='card-content'>
                                 <div className='media'>
                                     <div className='media-content'>
-                                        <p className='title is-4'>{article.judul}</p>
+                                        <Link to={`/detail-article/${article.id}`}><p className='title is-4'>{article.judul}</p></Link>
                                         <p class="subtitle is-6">{article.createdAt}</p>
                                     </div>
                                 </div>

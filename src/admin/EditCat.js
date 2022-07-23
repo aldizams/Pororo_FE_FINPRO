@@ -70,7 +70,7 @@ const EditCat = () => {
                     "Content-type": "multipart/form-data"
                 }
             });
-            navigate("/");
+            navigate("/adm-cat");
         } catch (error) {
             console.log(error.message);
         }

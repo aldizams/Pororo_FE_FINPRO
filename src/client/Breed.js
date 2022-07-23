@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-
+import {Link} from 'react-router-dom';
 
 const Breed = () => {
     const [cat, setCat] = useState([]);
@@ -15,7 +15,6 @@ const Breed = () => {
     };
 
     return (
-
 
         <div className='container mt-5'>
             <nav class="breadcrumb" aria-label="breadcrumbs">
@@ -35,7 +34,7 @@ const Breed = () => {
                             <div className='card-content'>
                                 <div className='media'>
                                     <div className='media-content'>
-                                        <p className='title is-4'>{cat.nama}</p>
+                                        <Link to={`detail-breed/${cat.id}`}><p className='title is-4'>{cat.nama}</p></Link>
                                         <p class="subtitle is-6">{cat.rambut}</p>
                                     </div>
                                 </div>

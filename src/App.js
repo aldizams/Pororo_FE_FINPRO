@@ -15,14 +15,16 @@ import Adopt from './client/Adopt';
 import Footer from './components/Footer';
 import CarouselBoostrap from './components/CarouselBoostrap';
 import BreedDetail from './client/BreedDetail';
+import ArticleDetail from './client/ArticleDetail';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<><Navbar/><CarouselBoostrap/><Breed /><Footer/></>}></Route>
-        <Route path="/detail-cat" element={<><Navbar/><BreedDetail/><Footer/></>}></Route>
+        <Route path="/detail-breed/:id" element={<><Navbar/><BreedDetail/><Footer/></>}></Route>
         <Route path="/article" element={<><Navbar/><Article /><Footer/></>}></Route>
+        <Route path="/detail-article/:id" element={<><Navbar/><ArticleDetail /><Footer/></>}></Route>
         <Route path="/adopt" element={<><Navbar/><Adopt /><Footer/></>}></Route>
         <Route path="/adm-cat" element={<CatList />}></Route>
         <Route path="/adm-add-cat" element={<AddCat />}></Route>

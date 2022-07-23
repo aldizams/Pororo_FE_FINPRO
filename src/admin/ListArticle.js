@@ -41,8 +41,9 @@ const ArticleList = () => {
                             <div className='card-content'>
                                 <div className='media'>
                                     <div className='media-content'>
-                                        <p className='title is-4'>{article.judul}</p>
                                         <p class="subtitle is-6">{article.createdAt}</p>
+                                        
+                                        <p className='title is-4'>{article.judul}</p>
                                     </div>
                                 </div>
                             </div>
